@@ -1,0 +1,192 @@
+body,
+html {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background: #596267 !important;
+}
+#mymail{
+    color: #fff;
+    text-decoration: none;       
+}
+#mymail:hover{
+    color: grey;
+    text-decoration: none;
+}
+.linkProject:hover{
+    color: gray;
+    text-decoration: none;
+}
+.intersection img {
+    width: 100%;
+    position: absolute;
+}
+
+.vectorImage {
+    position: absolute;
+    position: fixed;
+    bottom: -1px;
+}
+.cardFade{
+    padding: 25px 5px;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    height: 70%;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #DDDDDD;
+}
+.cardFade h1 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 35px;
+
+}
+.cardFade p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.linkProject{
+    text-decoration: none;
+    font-family: arial ;
+    font-size: 16px;
+    color: #FFF;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+/* a:hover{
+    color : #fff ;
+    text-decoration: none
+} */
+.cardFade ul{
+    width: 100%;
+    margin-left: -10px;
+    position: relative;
+    display: inline-block;
+}
+.cardFade ul li{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+.cardFade ul li a{
+    text-align: center;
+    padding: 10px !important;
+    transition: 0.3s ease-in-out;
+    color : #DDD;
+    font-size : 20px;
+}
+.cardFade ul a :hover{
+    color: #fff !important;
+}
+@media only screen and (min-width: 800px ){
+    body{
+        background: #2F3A41 !important;
+    }
+    bar{
+        margin: 15px;
+        color: #A4B0BD;
+        font-size: 25px;
+        position: fixed;
+        top: 5px;
+        cursor: pointer;
+        z-index: 10000;
+        width: 60px;
+        
+    }
+    bar:hover{
+        opacity: 0.8;
+        color: #fff;
+    }
+    .nav-sidebar{
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 50px;
+        padding: 0 5px;
+        height: calc(100vh);
+        background-color: #1B1B1B;
+        z-index: 1000;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-sidebar ul li span , .nav-sidebar ul li a{
+        display: block;
+        padding: 5px;
+        height: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 14px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        
+    }
+.nav-sidebar ul li span{
+    margin-top: 20px;
+    padding-top: 30px;
+    }
+    .nav-sidebar ul{
+        padding-top: 15px;
+        overflow: hidden;
+        visibility: hidden;
+        
+    }
+    .nav-sidebar ul li{
+        line-height: 60px;
+        list-style: none;
+        width: 100%
+    }
+    .nav-sidebar .nav-toogle a:hover{
+        background: #47535E;
+        width: 100%;
+    } 
+    .vectorImage img{
+        height: 470px;
+        width: 390px;
+    }
+    .cardFade{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        height: 70%;
+        width: 600px;
+        background-color: #2F3A41;
+    }
+    .cardFade h1{
+        font-size: 40px;
+        padding: 15px;
+    }
+    .intersection{
+        display: none;
+    }
+    p{
+        font-size: 18px !important;
+    }
+    h2 span{ 
+        padding: 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: #fff;
+    }
+
+
+}
+@media only screen and (max-width:600px){
+    .nav-sidebar{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .cardFade h2{
+        display: none;
+    }
+}

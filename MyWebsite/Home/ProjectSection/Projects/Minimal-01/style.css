@@ -1,0 +1,194 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif, arial;
+    font-size: 12px;
+}
+
+navigation {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+navigation li {
+    display: inline-block;
+    list-style: none;
+}
+
+navigation li a {
+    padding: 25px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    transition: 0.3s;
+}
+
+navigation .logo {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    padding: 20px;
+
+}
+
+.logo_image {
+    padding-right: 10px;
+}
+
+navigation name {
+    font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+navigation a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    background: #EA7773;
+    color: #fff;
+}
+navigation .active{
+    background: #EA7773;
+}
+.headerSection{
+    background: url("../Minimal-01/Source/bgGraphics-01.svg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.row {
+    text-align: center;
+    /*    align-items: center;*/
+}
+.col-lg-6 {
+    padding: 20px 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px 10px;
+}
+
+
+col-lg-6 h3 {
+    text-align: center;
+    font-size: 24px;
+    color: dimgray;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.col-lg-6 p {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.col-lg-6 img {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 400px;
+    
+}
+.servicesSection img:hover{
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+.servicesSection img{
+    transition: 0.2s all ease-out;
+}
+.upperSection {
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+.upperSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.servicesSection {
+    background: url(../Minimal-01/Source/SVGGraphics/Web%201920%20%E2%80%93%2010-2.svg) no-repeat;
+    background-size: cover;
+
+}
+
+.serivcesSection img {
+    margin-bottom: 30px;
+}
+
+.servicesSection h4 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.servicesSection h1 {
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+    font-size: 35px;
+    font-family: 'arial', sans-serif;
+    color: #fff;
+
+}
+
+.servicesSection p {
+    padding: 20px;
+    text-align: center;
+}
+.contactSection{
+    height: 350px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    background: #EA7773;
+    
+}
+.contactSection h1{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #F0F0F0;
+    
+    
+    
+}
+.contactSection img{
+    text-align: justify;
+    padding-top: 30px;
+    transition: 0.2s all ease;
+}
+.contactSection img:hover{
+    padding: 10px;
+    transition: 0.2s ease;
+}
+.footer{
+    text-align: center;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    color: gray;
+}

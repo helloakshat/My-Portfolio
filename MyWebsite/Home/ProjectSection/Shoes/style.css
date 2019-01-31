@@ -1,0 +1,462 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+#menuBtn{
+    display: none;
+}
+.container .section01 button{
+    display: none;
+}
+.navigation {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+ul {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 5px;
+}
+
+a {
+    font-family: avenir, sans-serif;
+    font-size: 16px;
+    color: #111;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* .section01 .btn {
+    background: #171717;
+    height: 50px;
+    font-size: 18px;
+    width: 130px;
+    float: right;
+    color: #efef;
+    border-radius: 0px;
+} */
+
+.btn {
+    background: #171717;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    width: 130px;
+    float: right;
+    color: #efef;
+    border-radius: 0px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    color: dimgray;
+}
+
+.col-lg-9 {
+    position: relative;
+    height: 700px;
+    width: 1780px;
+    background: url("Sources/blackWhiteShoes.jpeg");
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+.col-lg-3 {
+    position: relative;
+    z-index: 1;
+    height: 455px;
+    width: 720px;
+    margin-top: 120px;
+    margin-left: -10px;
+}
+
+.col-lg-3 img {
+    height: 455px;
+    width: 640px;
+    margin-left: -60px;
+    box-shadow: -30px 30px 25px rgba(0, 0, 0, 0.2)
+}
+
+.textSec01 .Titles {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    top: 70px;
+    font-weight: bolder;
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+    text-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1)
+}
+
+.textSec01 .usp h1 {
+    position: relative;
+    text-align: left;
+    margin-left: 450px;
+    top: 450px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: lighter !important;
+}
+
+.colorTitle {
+    color: #383838;
+}
+
+.titleSec02 {
+    padding: 20px;
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.textAreaSec02 {
+    padding: 80px;
+    padding-left: 120px;
+}
+
+.textAreaSec02 h1 {
+    font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.sec02 {
+    position: relative;
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: 250px;
+    height: 340px;
+    width: 440px;
+}
+
+.sec02 img {
+    height: 300px;
+    width: 380px;
+    box-shadow: -30px 30px 25px rgba(0, 0, 0, 0.2)
+}
+
+.section02 {
+    height: 100%;
+}
+
+.dullBlue {
+    margin-top: 130px;
+    background-color: #003F63;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: -10;
+    margin-left: -60px;
+    padding: 0px;
+}
+
+.secRowImg {
+    margin-top: 80px;
+    position: relative;
+    padding: 0px;
+}
+
+.secRowImg img {
+    box-shadow: 0px 30px 25px rgba(0, 0, 0, 0.2);
+    height: 700px;
+    width: 500px;
+}
+
+.galleryWall {
+    text-align: center;
+    height: 800px;
+    background: #005683;
+    width: 100%;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.galleryWall .col-sm-4 {
+    padding-top: 50px;
+}
+
+.galleryWall .col-sm-4 img {
+    width: 330px;
+    height: 350px;
+    box-shadow: 0px 30px 25px rgba(0, 0, 0, 0.2);
+}
+
+.galleryWall h1 {
+    color: #F7F7F7;
+    font-family: Montserrat, sans-serif;
+    margin-top: 20px;
+}
+
+.galleryWall h4 {
+    color: #F7F7F7;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.galleryWall #color01 {
+    background: #EDD8C5
+}
+
+.galleryWall #color02 {
+    background: #26C4DD
+}
+
+.galleryWall #color03 {
+    background: #E1DAE1
+}
+
+.galleryWall p {
+    padding: 20px;
+    box-shadow: 0px 30px 25px rgba(0, 0, 0, 0.2);
+}
+
+.specialOffer {
+    width: 95%;
+    margin-top: 80px;
+}
+
+.specialOffer .col-sm-4 {
+    width: 100%;
+    padding: 0%
+}
+
+.textAreaOffer {
+    padding: 60px;
+}
+
+.textAreaOffer .tittleOffer h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+}
+
+.textOffer {
+    color: #fff;
+}
+
+.specialOffer .col-sm-4 img {
+    height: 600px;
+    width: 400px;
+    padding: 0%;
+    z-index: 12;
+    box-shadow: -30px 30px 25px rgba(0, 0, 0, 0.2);
+}
+
+.specialOffer .col-sm-8 {
+    background: #AE6A5D;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    padding: 0%;
+    position: relative;
+}
+
+.discount {
+    background: #B8B6AA;
+    position: relative;
+    top: -180px;
+    height: 260px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+    left: 5%;
+}
+
+.discount h1,
+p {
+    color: #efef;
+}
+
+.discount h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.discount h1 span {
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 90px;
+    position: relative;
+    top: -5px;
+}
+
+.discount p {
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* .discount h1 br{
+    posi
+    
+} */
+
+.stories {
+    background: #387E85;
+    height: 450px;
+    width: 100%;
+}
+
+.stories .col-sm-3 img {
+    height: 400px;
+    width: 300px;
+    margin: 25px;
+}
+
+.stories .col-sm-9 {
+    padding: 50px;
+}
+
+.stories .col-sm-9 h1,
+p {
+    padding: 30px;
+    color: #efef;
+}
+
+.stories h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.stories p {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 40px;
+    padding: 50px;
+    padding-top: 80px;
+    background: url('Sources/nikeorange.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+
+.contact h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact h1 span {
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.textAreaContact .col-sm-8 {
+    padding: 50px;
+}
+
+.web {
+    font-size: 14px !important;
+    color: #B8B6AA
+}
+
+.textAreaContact .map {
+    height: 200px;
+    width: 200px;
+}
+
+.celeb {
+    margin-top: 40px;
+    background: url('Sources/modelPinkwithShoe.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+}
+
+.cardMess {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cardMess .Innercards {
+    padding: 10px;
+    margin-top: 250px;
+}
+
+.cardMess .Innercards h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #EB4D5C;
+}
+
+.cardMess .Innercards p {
+    font-size: 14px;
+    color: #EB4D5C;
+}
+
+/* Media queries */
+
+/* 1024 */
+
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        width: 100%;
+    }
+    .container {
+        margin: 10px;
+    }
+    .section02 {
+        max-width: 100% !important;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .textAreaContact {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+    .galleryWall .row .col-sm-4 img {
+        max-width: 250px;
+        max-height: 300px;
+    }
+    .dullBlue {
+        height: 90vh;
+    }
+    .section01 .textSec01 .Titles {
+        font-size: 80px;
+    }
+}

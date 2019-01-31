@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #3b5998;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_111" data-name="Ellipse 111" class="cls-1" cx="200" cy="200" r="200" transform="translate(1367 365)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" class="cls-2" transform="translate(-1367 -365)">
+    <g id="facebook" transform="translate(1367 365)">
+      <path id="Path_904" data-name="Path 904" class="cls-3" d="M200,0C310.457,0,400,89.543,400,200S310.457,400,200,400,0,310.457,0,200,89.543,0,200,0Z" transform="translate(0 0)"/>
+      <path id="Path_903" data-name="Path 903" class="cls-4" d="M250.28,207.829H214.592V338.572h-54.07V207.829H134.807V161.881h25.716V132.147c0-21.263,10.1-54.558,54.551-54.558l40.051.168v44.6h-29.06c-4.767,0-11.469,2.382-11.469,12.525v27.042H255Z"/>
+    </g>
+  </g>
+</svg>

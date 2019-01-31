@@ -1,0 +1,340 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'arial', sans-serif;
+    font-size: 18px;
+}
+
+.background {
+    background: url(Source/adventure-altitude-climb-1021808.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh);
+    width: 100%;
+}
+
+.background img {
+    position: absolute;
+    top: 50;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.heading {
+    z-index: 2;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+    font-family: 'arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+navigation ul {
+    top: 80px;
+    display: block;
+    width: 95%;
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+}
+
+.upperSection {
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+navigation li {
+    display: inline-block;
+    margin: 20px;
+    z-index: 2;
+}
+
+navigation a {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+
+}
+
+navigation a:hover {
+    text-decoration: none;
+    color: #DAE0E2;
+}
+
+.tagline {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: lighter;
+
+    font-size: 60px;
+    position: relative;
+    z-index: 3;
+    top: 350px;
+    color: #fff;
+}
+
+.WhatWeDo {
+    text-align: center;
+    margin: 20px;
+    margin-top: 60px;
+    padding-top: 30px;
+    background: #f2f2f2;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+}
+
+.WhatWeDo h6 {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.WhatWeDo h1 {
+    color: dimgray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.WhatWeDo p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.WhatWeDo .row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.WhatWeDo a {
+    text-decoration: none;
+    float: left;
+}
+
+.WhatWeDo a:hover {
+    text-decoration: none;
+    color: #3498DB;
+}
+
+.PlaceDes {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.PlaceDes h6,
+h1 {
+    padding: 20px;
+    color: gray;
+}
+
+.PlaceDes p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.PlaceDes .row {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+.PlaceDes img{
+    transition: 0.3s all ease;
+}
+.PlaceDes img:hover{
+    box-shadow: 0px 6px 50px #000;
+}
+
+.customer h6{
+    padding: 20px;
+    color: gray;
+}
+.customer{
+    text-align: center;
+    background: #f2f2f2;
+    height: 100%;
+    padding: 20px;
+    
+}
+.customer .row{
+    margin-bottom: 140px;
+}
+.customer name{
+    color: gray;
+    font-size: 14px;
+    position: relative;
+    top: -45px;
+    left: -120px;
+    padding: 10px;
+}
+.customer .col-lg-6{
+    margin-top: 50px;
+}
+.customer h1{
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: dimgray;
+}
+.blog{
+    text-align: center;
+}
+.blog .row{
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+.blog p{
+    font-size: 14px;
+    color: grey;
+}
+.blog h1{
+    color: dimgray;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.blog .btn{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #3498DB;
+}
+.btn-lg{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background: #ed5e54;
+    border-radius: 5px !important;
+    transition: 0.3s ease all;
+}
+.btn-lg:hover{
+    box-shadow: 0px 5px 20px #000;
+}
+.invite{
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    height: 70%;
+    background: #3e4a4e;
+    color: gray;
+}
+.invite h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.contact{
+    height: 100%;
+    padding: 40px;
+    background: #f2f2f2;
+}
+.contact h4,p,a {
+    text-align: left;
+    padding-left: 80px;
+    font-size: 16px;
+    color: grey;
+}
+.contact h4{
+    margin-top: 80px;
+    color: #000;
+    font-weight: bold;
+}
+.contact a{
+    color: #3498DB;
+    
+}
+.para{
+    width: 500px;
+}
+.tables{
+    float: right;
+    font-size: 14px;
+    color: grey;
+    padding: 30px;
+    top: -120px;
+    position: relative;
+    margin-right: 100px;
+}
+.tables td{
+    padding-left: 100px;
+}
+.black-hover{
+    font-size: 14px;
+    color: gray;
+}
+.black-hover:hover{
+    color: #000;
+}
+
+.social{
+    font-size: 14px;
+    color: grey;
+    width: 100%;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 50px;
+}
+.social li{
+    list-style: none;
+    color: grey;
+    display: inline-block;
+    text-align: justify;
+    padding-left: -10px;
+}
+.social .detail{
+    width: 350px;
+    padding: 0px;
+    padding-left: 30px;
+}
+.social a{
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+}
+.contact a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

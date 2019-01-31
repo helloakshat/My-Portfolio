@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f7f7f7;
+      }
+
+      .cls-4 {
+        fill: #55acee;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_113" data-name="Ellipse 113" class="cls-1" cx="200" cy="200" r="200" transform="translate(803 368)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" class="cls-2" transform="translate(-803 -368)">
+    <g id="twitter" transform="translate(802.996 368)">
+      <path id="Path_905" data-name="Path 905" class="cls-3" d="M200,0C310.457,0,400,89.543,400,200S310.457,400,200,400,0,310.457,0,200,89.543,0,200,0Z" transform="translate(0.004 0)"/>
+      <g id="Group_80" data-name="Group 80">
+        <path id="Path_902" data-name="Path 902" class="cls-4" d="M322.511,143.734a95.381,95.381,0,0,1-27.459,7.519,47.935,47.935,0,0,0,21.024-26.443,95.7,95.7,0,0,1-30.358,11.6,47.846,47.846,0,0,0-81.465,43.609,135.7,135.7,0,0,1-98.538-49.955,47.858,47.858,0,0,0,14.792,63.828A47.469,47.469,0,0,1,98.856,187.9c0,.2,0,.406,0,.606A47.833,47.833,0,0,0,137.2,235.381a47.992,47.992,0,0,1-21.587.827,47.856,47.856,0,0,0,44.658,33.2A96.5,96.5,0,0,1,89.5,289.2a135.223,135.223,0,0,0,73.275,21.48c87.932,0,136.019-72.844,136.019-136.023,0-2.071-.046-4.136-.139-6.182a96.943,96.943,0,0,0,23.858-24.742Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

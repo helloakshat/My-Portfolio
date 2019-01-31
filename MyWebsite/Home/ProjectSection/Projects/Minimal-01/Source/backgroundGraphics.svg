@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_7);
+      }
+
+      .cls-2 {
+        fill: #ff656c;
+      }
+
+      .cls-10, .cls-3 {
+        fill: #f7f7f7;
+      }
+
+      .cls-3 {
+        font-size: 125px;
+        font-family: LucidaGrande, Lucida Grande;
+      }
+
+      .cls-4 {
+        font-family: Sana;
+      }
+
+      .cls-5 {
+        fill: #383838;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #f7f7f7;
+      }
+
+      .cls-7 {
+        stroke-linecap: square;
+        stroke-width: 18px;
+      }
+
+      .cls-8 {
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-10, .cls-9 {
+        stroke: none;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Web_1920_7">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_7" data-name="Web 1920 – 7" class="cls-1">
+    <rect class="cls-11" width="1920" height="1080"/>
+    <g id="Carousal-01">
+      <rect id="Rectangle_150" data-name="Rectangle 150" class="cls-2" width="1920" height="1080"/>
+      <g id="Group_66" data-name="Group 66" transform="translate(-79 48)">
+        <text id="The_Website_Designer" data-name="The Website Designer" class="cls-3" transform="translate(402 630)"><tspan x="0" y="0">The</tspan><tspan class="cls-4" y="0"> </tspan><tspan y="0">Website</tspan><tspan class="cls-4" y="0"> </tspan><tspan y="0">Designer</tspan></text>
+      </g>
+    </g>
+    <g id="Group_81" data-name="Group 81" transform="translate(0 -52)">
+      <g id="MKBHD" transform="translate(496.23 -1832.999)">
+        <g id="Group_64" data-name="Group 64" transform="translate(305.573 2061.585)">
+          <g id="Group_65" data-name="Group 65" transform="translate(0 0)">
+            <path id="Path_889" data-name="Path 889" class="cls-5" d="M6.876-.013l85.4,49.3L84.93,295.084l-85.4-49.3Z" transform="translate(262.94 12.959) rotate(60)"/>
+            <g id="Path_891" data-name="Path 891" class="cls-6" transform="translate(0 106.642) rotate(-60)">
+              <path class="cls-9" d="M.1,57.478,99.359.17l24.306,236.065L24.4,293.543Z"/>
+              <path class="cls-10" d="M 89.31871795654297 19.82281494140625 L 12.83125305175781 63.98280334472656 L 34.44395446777344 273.8904418945312 L 110.9312973022461 229.7299041748047 L 89.31871795654297 19.82281494140625 M 99.358642578125 0.16986083984375 L 123.6644973754883 236.2347259521484 L 24.40404510498047 293.5434875488281 L 0.09804534912109375 57.47792053222656 L 99.358642578125 0.16986083984375 Z"/>
+            </g>
+            <path id="Path_892" data-name="Path 892" class="cls-5" d="M0,.591,83.327,0,93.685,75.555,92.166,87.017,77.1,86.891,1.474,83.751Z" transform="translate(144.083 84.216) rotate(-28)"/>
+          </g>
+        </g>
+      </g>
+      <line id="Line_16" data-name="Line 16" class="cls-7" y1="2" x2="100" transform="translate(910.5 506.5)"/>
+    </g>
+    <line id="Line_17" data-name="Line 17" class="cls-8" y1="2" x2="1000" transform="translate(460.5 750.5)"/>
+  </g>
+</svg>

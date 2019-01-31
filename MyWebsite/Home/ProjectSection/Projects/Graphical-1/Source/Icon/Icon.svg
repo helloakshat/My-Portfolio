@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 506 506">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+        stroke: #707070;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 7px;
+      }
+
+      .cls-2, .cls-4, .cls-8, .cls-9 {
+        fill: #e0c29e;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-5, .cls-6 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-6 {
+        stroke-linejoin: round;
+      }
+
+      .cls-7 {
+        fill: #efdcc5;
+        font-size: 30px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-8 {
+        font-size: 46px;
+      }
+
+      .cls-9 {
+        font-size: 26px;
+      }
+    </style>
+  </defs>
+  <g id="Icon" transform="translate(-150 -184)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="249.5" cy="249.5" r="249.5" transform="translate(153.5 187.5)"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(-618.34 -29.152)">
+      <g id="Group_2" data-name="Group 2" transform="translate(995.051 308.66)">
+        <path id="Exclusion_1" data-name="Exclusion 1" class="cls-2" d="M1.514,311.738v-1.321c-.884.639-1.414,1-1.511,1.071l0,0V.285S.03.3.073.323c.193.1.781.424,1.7.945V0L1.8.008C2.9.381,12.908,3.82,27.2,9.938c8.862,3.794,17.64,7.872,26.092,12.12,10.562,5.309,20.64,10.9,29.952,16.618,23.7,14.553,42.648,30,56.31,45.923a120.031,120.031,0,0,1,18.771,28.9,88.223,88.223,0,0,1,5.379,15.847,77.926,77.926,0,0,1,.465,33.709,93.167,93.167,0,0,1-5.039,16.468A134.269,134.269,0,0,1,140.71,210.64c-13.566,17.54-32.586,35.253-56.532,52.645-9.408,6.833-19.608,13.632-30.316,20.208-8.568,5.262-17.478,10.393-26.482,15.251-15.289,8.249-25.76,12.946-25.864,12.993ZM1.77,1.268,1.515,310.417a251.769,251.769,0,0,0,19.731-16.078,293.7,293.7,0,0,0,31.972-33.463,231.626,231.626,0,0,0,30.652-48.4,180.861,180.861,0,0,0,10.594-29.033A158.543,158.543,0,0,0,99.643,151.6a124.6,124.6,0,0,0-2.184-31.469,132.926,132.926,0,0,0-9.033-28.139c-7.043-15.781-17.358-31.158-30.657-45.7a243.968,243.968,0,0,0-56-45.016Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(-1317 -112)">
+      <g id="Group_7" data-name="Group 7">
+        <g id="Group_4" data-name="Group 4" transform="translate(1221.285 25.858)">
+          <g id="Group_3" data-name="Group 3">
+            <g id="Group_1" data-name="Group 1" transform="translate(-1 -7.588)">
+              <path id="Path_4" data-name="Path 4" class="cls-3" d="M16.917,1.117.215,34.585,1.038,153.36l.947,136.617s1.655,26.8,18.2,41.2" transform="translate(415.5 362.823)"/>
+              <path id="Path_3" data-name="Path 3" class="cls-4" d="M-14.657.23-1.4,34.319-.12,287.064s-1.338,23.611-12.336,41.79" transform="translate(448.266 365.471)"/>
+            </g>
+            <path id="Path_5" data-name="Path 5" class="cls-5" d="M0,0S3.43,3.45,6.68,3.45,13,0,13,0" transform="translate(423.5 380.5)"/>
+          </g>
+          <path id="Path_6" data-name="Path 6" class="cls-6" d="M7.2,11.528c-.543-.869-1.474-2.4-2.37-4.036C2.383,3.019,2.319,1.579,2.4,1.167,2.583.307,4.628-.419,6.87-.419A7.268,7.268,0,0,1,9.741.087c.726.327,1.1.765,1.114,1.3.036,1.522-1.987,6.526-2.776,8.342Z" transform="translate(426.199 678.224) rotate(2)"/>
+        </g>
+      </g>
+    </g>
+    <text id="D_Design" class="cls-7" transform="translate(341 658)"><tspan x="0" y="0">D</tspan><tspan class="cls-8" y="0">_</tspan><tspan class="cls-9" y="0">Design</tspan></text>
+  </g>
+</svg>

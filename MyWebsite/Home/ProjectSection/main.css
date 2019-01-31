@@ -1,0 +1,173 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    /* position: fixed; */
+}
+
+.navigation ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 20px 10px;
+    list-style: none;
+}
+
+.navigation li a {
+    color: #111;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+.navigation li a:before {
+    content: '';
+    width: 100px;
+    position: absolute;
+    border-bottom: 1px solid #111;
+    top: 40px;
+    right: 200px;
+    transition: 0.5s all ease-in-out;
+}
+
+.navigation li a:hover:before {
+    right: 0px;
+}
+
+.navigation li a:hover {
+    color: gray;
+}
+
+.container {
+    background: #eaeaea;
+    margin: 50px , auto;
+    padding: 10px;
+}
+
+.container .heading {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #111;
+}
+figure{
+    position: relative;
+    overflow: hidden;
+}
+.container .gallery img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+
+}
+.container .gallery .btn{
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 30px;;
+}
+.container .gallery .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Montserrat" , sans-serif !important ;
+    font-size: 28px !important;
+    font-weight: lighter;
+    color: gray !important; 
+    padding: 10px;
+}
+.contact{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.contact p{
+    margin: 30px;
+    color: gray;
+    font-size: 16px;
+    font-weight: lighter;
+} 
+.contact ul{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+.contact ul li{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+.contact ul li a{
+    color: dimgray;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.contact ul li a:hover{
+    color: #111;
+    transition: 0.3s;
+}
+.email{
+    padding: 5px;
+    color: dimgray;
+}
+.email a{
+    color: dimgray;
+    text-decoration: none;
+}
+.email a:hover{
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .container .gallery img {
+        height: 200px;
+        width: 200px;
+    }
+    .container{
+        margin-top: 10px;
+    }
+}
